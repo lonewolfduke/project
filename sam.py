@@ -1,4 +1,4 @@
-score = float(input("Your Result is = "))
+score = float(input("Enter Your Result = "))
 if score >= 70 and score <= 100:
  print ("excellent ")
 elif score >= 60 and score <= 69:
@@ -11,3 +11,4 @@ elif score >= 30 and score <= 39:
  print("Fail")
 else:
  print("See Admin ")
+exit()

@@ -1,6 +1,8 @@
 print("Enter the value you are converting and leave the other column as 0 ")
 cur1 = float(input("Dollar Enter here "))
 cur = float(input("Naira Enter here "))
+if (cur1 < 0 or cur < 0):
+ print("Negative value not accepted!!!")
 g = (cur1 * 358)
 g2 = (cur / 358)
 if cur1 > 0 and cur == 0:
