@@ -1,6 +1,6 @@
-i = 2
+i = 1
 sum = 0
-while i <= 50:
+while i <= 51:
  print(i)
  i = i + 2
  sum = sum + i
